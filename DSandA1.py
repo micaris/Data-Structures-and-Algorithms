@@ -270,3 +270,16 @@ test_list = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
 print(binary_search(test_list, 3))
 print(binary_search(test_list, 13))
 
+
+#****************************************************************#
+# Hashing tables
+
+def hash(a_string, tables_size):
+    sum = 0
+    for pos in range(len(a_string)):
+        sum = sum  + ord(a_string[pos])
+
+    return sum % tables_size
+
+
+
