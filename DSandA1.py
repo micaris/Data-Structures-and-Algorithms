@@ -281,5 +281,11 @@ def hash(a_string, tables_size):
 
     return sum % tables_size
 
+from Sorting import bubble_sort
+
+a_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+bubble_sort(a_list)
+print(a_list)
+
 
 

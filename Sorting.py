@@ -52,3 +52,4 @@ def gap_insertion_sort(a_list, start, gap) :
             a_list[position ] = current_value
 
 def merge_sort(a_list):
+    pass

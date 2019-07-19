@@ -37,8 +37,7 @@ class HashTable:
         stop = False
         found = False
         position = start_slot
-        while self.slots[position] != None and \
-            not found and not stop:
+        while self.slots[position] != None and not found and not stop:
             if self.slots[position] == key:
                 found = True
                 data = self.data[position]
